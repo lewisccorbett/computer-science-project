@@ -1,0 +1,15 @@
+Sequence of Commands to compile the program
+  1. Save the program to a file with extension .c
+  2. Compile the program:
+    - Type gcc add.c -o add
+      a. gcc is a command used to start the compilation of a program
+      b. program.c is the source code which will be compiled
+      c. -o program specifies the name of the output file/executable
+      d. The compiler will translate source code into machine code and link all libraries – in this case: stdio.h - and produce an executable file.
+  3. Run the program, by typing ./add
+
+Compilation process Explanation:
+  1. Preprocessing: The compiler searches for any libraries that are mentioned and include the contents of them.
+  2. Compilation: The preprocessed source code is translated into assembly language
+  3. Assembly: The assembly language is converted to machine code
+  4. Linking: The machine code is linked to the libraries to output an executable file
