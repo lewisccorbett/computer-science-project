@@ -14,3 +14,5 @@ Create, compile and run the program above.
 Were you able to run the program? (yes or no). If no, what error did you get? How did you try to fix the problem? [3 marks]
 
 Write down the result of performing syntax analysis on the code above. [2 marks]
+
+(document attached)
