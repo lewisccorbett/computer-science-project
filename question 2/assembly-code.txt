@@ -1,0 +1,8 @@
+OUT prompt ; Print "Enter two numbers: "
+INP var1   ; Read first number into var1
+INP var2   ; Read second number into var2
+LDA var1   ; Load the value of var1
+ADD var2   ; Add the value of var2
+STA result ; Store the result in 'result'
+OUT format, var1, var2, result ; Print the formatted result
+HLT        ; Exit the program
